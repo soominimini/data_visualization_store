@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)file:///C:/Users/soomn/file_test/index_files/custom_background_image.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <style>
+      html,
+      body,
+      #image,
+      #gradient {
+        height: 100%;
+        width: 100%;
+      }
+
+      #image,
+      #gradient {
+        position: fixed;
+        top: 0;
+      }
+
+      body {
+        margin: 0;
+        opacity: 0;
+        transition: opacity 700ms;
+      }
+
+      body[shown] {
+        opacity: 1;
+      }
+
+      #image {
+        background-image: url(https://lh4.googleusercontent.com/proxy/UOhQwfclsAK8TnXZqoTkh9szHvYOJ3auDH07hZBZeVaaRWvzGaXpaYl60MfCRuW_S57gvzBw859pj5Xl2pW_GpfG8k2GhE9LUFNKwA=w3840-h2160-p-k-no-nd-mv);
+        background-position: center center;
+        background-repeat: no-repeat no-repeat;
+        background-size: cover;
+      }
+
+      #gradient {
+        background: radial-gradient(transparent 50%, black),
+            linear-gradient(transparent, black);
+        opacity: .2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid" style="margin-top:40px">              <iframe src="./valence.html" width="100%" height="300"></iframe>                           
+        <iframe src="./petal_plot.html" width="100%" height="300"></iframe>                  
+        
+    </div>
+</body></html>
