@@ -1,0 +1,4 @@
+url로 들어가려면
+https://soominimini.github.io/data_visualization_store/index_files/arousal.html
+https://soominimini.github.io/data_visualization_store/index_files/valence.html
+이런 식으로 접근하면 됨
